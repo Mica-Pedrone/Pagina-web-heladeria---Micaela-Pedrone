@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9A9CE6;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+}
+
+.container-nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.productosPadre {
+    display: flex;
+}
+
+.container-nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    
+    display: flex;
+    background-color: rgb(235, 189, 117);
+    color: white;
+    border: rgb(112, 88, 22);
+    
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px;
+}
+
+.nav ul li:hover {
+    background-color: rgb(121, 95, 38);
+    padding: 20px;
+}
+
+
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container .card {
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
